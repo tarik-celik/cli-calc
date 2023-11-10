@@ -11,5 +11,4 @@ if (x == "-") {num3 = num1 - num2;}
 if (x == "/" or x == ":") {num3 = num1 / num2;}
 if (x == "x" or x == "*") {num3 = num1 * num2;}
 cout << num3 << endl;}
-return 0;
-}
+return 0;}
