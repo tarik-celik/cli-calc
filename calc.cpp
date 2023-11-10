@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-using std::cout, std::cin, std::string;
+using std::cout, std::cin, std::string, std::endl;
 int main() {
 double num1, num2, num3;
 string x;
