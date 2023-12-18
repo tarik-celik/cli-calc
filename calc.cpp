@@ -1,14 +1,26 @@
-#include <iostream>
-#include <string>
-using std::cout, std::string, std::cin, std::endl;
+#include <stdio.h>
 int main() {
-double num1, num2, num3;
-string x;
-while (true) {
-cin >> num1 >> x >> num2;
-if (x == "+") {num3 = num1 + num2;}
-if (x == "-") {num3 = num1 - num2;}
-if (x == "/" or x == ":") {num3 = num1 / num2;}
-if (x == "x" or x == "*") {num3 = num1 * num2;}
-cout << num3 << endl;}
-return 0;}
+float num1, num2, num3;
+char op;                                                      
+  while(1) {                                                    
+    scanf("%f %c %f", &num1, &op, &num2);
+if (op == *"+") {
+num3 = num1 + num2;
+printf("%.3f",num3);
+}
+if (op == *"-") {
+num3 = num1 - num2;
+printf("%.3f", num3);
+}
+if (op == *"/") {
+num3 = num1 / num2;
+printf("%.3f", num3);
+}
+if (op == *"x") {
+num3 = num1 * num2;
+printf("%.3f", num3);
+}
+printf("\n");
+}
+return 0;
+}
